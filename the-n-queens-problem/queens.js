@@ -15,6 +15,7 @@
     for(i = 0; i < row; i++) {
       if(solution[i] === col || col + (row - i) === solution[i] || col - (row - i) === solution[i]) {
         flag = false;
+        break;
       }
     }
   
